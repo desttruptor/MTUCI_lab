@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Lab1 {
     public static void main(String[] args) {
         Point3d p1 = new Point3d(Double.parseDouble(args[0]), Double.parseDouble(args[1]), Double.parseDouble(args[2]));
