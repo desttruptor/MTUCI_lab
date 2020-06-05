@@ -64,7 +64,7 @@ public class Crawler {
         showResult(viewedLink);
     }
     public static void main(String[] args) {
-        String[] arg = new String[]{"https://natribu.org/ru/","4"};
+        String[] arg = new String[]{"https://natribu.org/ru","4"};
         try {
             Process(arg[0], Integer.parseInt(arg[1]));
         } catch (NumberFormatException | IOException e) {
